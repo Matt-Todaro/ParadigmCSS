@@ -339,12 +339,12 @@ So, putting it all together we'll end up with something like...
     <script>
 
         // Will remove all previously defined variables
-        ParadigmCSS.components = {
+        ParadigmCSS.variables = {
             colorPrimary: '#FF0000';
         };
 
         // Will define a new variable but keep existing
-        ParadigmCSS.components.colorPrimary = '#FF0000';
+        ParadigmCSS.variables.colorPrimary = '#FF0000';
 
         // Be sure to re-render styles if necessary
         ParadigmCSS.render();  
