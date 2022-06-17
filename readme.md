@@ -20,7 +20,7 @@ Here's a few examples to demonstrate how easy it is to use Paradigm CSS...
 | md:font-size:1.1rem | Sets the **font-size** property to **1.1rem** on breakpoints **md and above** |
 | md:color:#FF0000:hover | Sets the **color** property to **#FF0000** when the element is **hovered** on breakpoints **md and above** |
 | -lg:width:calc(100vw_-_20px) | Sets the **width** of the element to **100% of the viewport width - 20px** on devices **smaller than the lg breakpoint**. |
-| #md:padding:1.1rem | Adds **10px** of **padding** to the element **only on the md breakpoint** |
+| #md:padding:10px | Adds **10px** of **padding** to the element **only on the md breakpoint** |
 | print:display:none | Hides the element when printing the page |
 
 ___
